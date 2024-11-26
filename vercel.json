@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        { 
+            "source": "/book-bans/", 
+            "destination": "https://projects.citizencodex.com/"
+        }
+    ]
+  }
