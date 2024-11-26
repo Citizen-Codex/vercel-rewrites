@@ -2,7 +2,7 @@
     "rewrites": [
         { 
             "source": "/book-bans/", 
-            "destination": "https://projects.citizencodex.com/"
+            "destination": "https://behind-book-bans.vercel.app"
         }
     ]
   }
