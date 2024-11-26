@@ -1,12 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/book-bans",
-        "destination": "https://behind-book-bans.vercel.app/book-bans"
-      },
-      {
-        "source": "/book-bans/*",
-        "destination": "https://behind-book-bans.vercel.app/book-bans/:path*"
+        "source": "/book-bans:match(.*)",
+        "destination": "https://behind-book-bans.vercel.app:match"
       }
     ]
   }
